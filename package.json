@@ -1,0 +1,32 @@
+{
+  "name": "hoo",
+  "version": "0.1.0",
+  "description": "POC for recompose-like react-stamp utils.",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -s bundle index.js -t babelify > public/bundle.js",
+    "start": "babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troutowicz/hoo.git"
+  },
+  "author": "Tim Routowicz <troutowicz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troutowicz/hoo/issues"
+  },
+  "homepage": "https://github.com/troutowicz/hoo#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-stamp": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0"
+  }
+}
